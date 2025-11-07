@@ -6,8 +6,8 @@ if SHIELD_TOTEM_LEFT
 config ZMK_KEYBOARD_NAME
     default "TOTEM"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+# Left half is now peripheral when using dongle
+# Central role is removed - configure via build.yaml
 
 endif
 
