@@ -1,6 +1,9 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: totem_left
-  - board: seeeduino_xiao_ble
-    shield: totem_right
+    shield: totem_dongle dongle_screen
+# Uncomment these after dongle is tested and working:
+#  - board: seeeduino_xiao_ble
+#    shield: totem_left
+#  - board: seeeduino_xiao_ble
+#    shield: totem_right
 # there is no settingsreset (needed) for the XIAO
