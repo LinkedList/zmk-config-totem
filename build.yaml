@@ -3,9 +3,7 @@ include:
     shield: totem_dongle dongle_screen
   - board: seeeduino_xiao_ble
     shield: totem_left
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 # Right half will be added after left half is tested:
 #  - board: seeeduino_xiao_ble
 #    shield: totem_right
-#    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 # there is no settingsreset (needed) for the XIAO
