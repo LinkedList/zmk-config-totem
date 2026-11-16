@@ -5,12 +5,15 @@ manifest:
     - name: janpfischer
       url-base: https://github.com/janpfischer
   projects:
+    # Pinned to the ZMK main commit the current firmware was built from (Nov 2025,
+    # Zephyr 3.5). ZMK main has since moved to Zephyr 4.1, which zmk-dongle-screen
+    # main does not support yet.
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: f9be3ed9c08b35b1b86df24c0f04913f3b5e50f5
       import: app/west.yml
     - name: zmk-dongle-screen
       remote: janpfischer
-      revision: main
+      revision: 0.1.2
   self:
     path: config
