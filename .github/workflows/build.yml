@@ -2,5 +2,5 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    # Keep in sync with the zmk revision in config/west.yml
+    # Keep in sync with the ZMK base of the fork pinned in config/west.yml
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@f9be3ed9c08b35b1b86df24c0f04913f3b5e50f5
